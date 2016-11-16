@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/Message1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"/>
+    <TextView
+        android:id="@+id/GreetingMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_margin="6dp"
+        android:background="@drawable/bubbleb"
+        android:paddingLeft="10dip"
+        android:text="Hey how are you doing?"
+        android:textColor="@android:color/primary_text_light"
+        android:gravity="center"
+        />
+
+</LinearLayout>
